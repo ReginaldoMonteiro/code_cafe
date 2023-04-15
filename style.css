@@ -142,7 +142,7 @@ font-size: 25px;
      }
 
  .rodape{
-    background: url(/src/imagens/fundo-rodape.jpg)center center no-repeat;
+    background: url(src/imagens/fundo-rodape.jpg)center center no-repeat;
     padding: 35px 30px;
     background-size: cover;
  }
