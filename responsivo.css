@@ -1,0 +1,153 @@
+@media (max-width: 992px) {
+    .secao-texto {
+        padding: 153px 25px;
+    }
+
+    .secao-texto p,
+    .secao-texto.endereco p {
+        width: 100%;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .contato {
+        background-image: none;
+        background-color: #D3AE71;
+    }
+
+    .contato .atendimento {
+
+        position: relative;
+        text-align: center;
+        top: 50%;
+        left: 0;
+        transform: translateY(-50%);
+
+    }
+
+    .atendimento address {
+        margin: auto;
+    }
+
+}
+
+@media (max-width: 720px) {
+
+    .ladrilho .grande,
+    .ladrilho .media {
+        width: 100%;
+
+    }
+
+    .ladrilho .pequeno,
+    .ladrilho .pequeno.grao {
+        width: 50%;
+    }
+
+    .rodape {
+        text-align: center;
+        height: 300px;
+    }
+
+    .rodape .logo {
+        margin: auto;
+    }
+
+    .rodape ul {
+        margin: auto;
+    }
+
+    
+
+    .rodape ul {
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .rodape ul li {
+        display: inline-block;
+    }
+
+    .rodape .redes-sociais {
+        float: none;
+    }
+
+}
+
+
+@media (max-width: 445px){
+    .cabecalho{
+        padding: 15px 0;
+        margin: auto;
+    }
+
+    .cabecalho .logo {
+      margin: 0 auto;
+        display: block;
+    }
+    .cabecalho nav {
+        position: static;
+        display: block;        
+    }
+     
+
+
+    .cabecalho ul li{
+        display: block;
+        text-align: center;
+        padding-left:0 ; 
+        padding-right: 0;     
+    }
+    .cabecalho ul li a{
+        margin:0;
+        margin: auto;
+    }  
+
+    
+}
+
+
+@media (max-width: 425px) {
+    .cabecalho .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .cabecalho nav {
+        position: static;
+        text-align: center;
+        width: 100%;
+    }
+
+    .cabecalho nav ul li {
+        display: block;
+    }
+
+    .cabecalho nav ul li a {
+        width: 70%;
+        display: block;
+    }
+
+    .painel h2 {
+        font-size: 2.5rem;
+    }
+
+    .secao-texto h2 {
+        font-size: 3rem;
+    }
+
+    .secao-texto.endereco p {
+        font-size: 2rem;
+    }
+
+    @media (max-width:375px) {
+
+        .ladrilho .pequeno,
+        .ladrilho .pequeno.grao {
+            width: 100%;
+        }
+    }
+
+}
